@@ -52,6 +52,8 @@ function addDedicantes(){
     
     //span.addEventListener('click',deleteDedicante(10))
 
+    span.onclick = () => deleteDedicante(span)
+
     li.append(imgFoto)
     li.append(a)
     li.append(span)
@@ -94,6 +96,14 @@ function fabricarDedicante(codigo,nome,foto,dataInicio,dataFim,regiao){
     return dedicante
 }
 
-function deleteDedicante(id) {
-    alert(id)
+function deleteDedicante(element) {
+    
+    if(confirm('Você tem certeza que deseja excluir o dedicante?')){
+        element.parentNode.remove()
+
+        listaDedicantes = listaDedicantes.filter((item) => {
+            if(!(item.codigo == element.id)) return item
+        })
+    }
+        
 }
