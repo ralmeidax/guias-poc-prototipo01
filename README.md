@@ -11,4 +11,16 @@ c) Foto de @INSTAGUILHERME no Pexels
 d) Foto de Dellon Thomas no Pexels
 e) Foto de mentatdgt no Pexels
 
-Foram utilizados nomes fictícios
+Foram utilizados nomes fictícios!
+
+# arquivo guias.json
+![alt text](https://raw.githubusercontent.com/ralmeidax/guias-poc-prototipo01/master/screen/arquivo-json.png)
+
+# API Server
+![alt text](https://raw.githubusercontent.com/ralmeidax/guias-poc-prototipo01/master/screen/api-server.png)
+
+# Relação de Dedicantes
+![alt text](https://raw.githubusercontent.com/ralmeidax/guias-poc-prototipo01/master/screen/relacao-dedicantes.png)
+
+# Planejando Dedicação
+![alt text](https://raw.githubusercontent.com/ralmeidax/guias-poc-prototipo01/master/screen/planejando-dedicacao.png)
