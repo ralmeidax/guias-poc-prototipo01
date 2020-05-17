@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guias - Planejando Dedicação</title>
+</head>
+<body>
+
+    <section id='sectionPlanning'>
+        <div id="sectionHeader">
+            Guias - Planejando Dedicação
+        </div>
+        <div id="container">
+            <p>
+                Data Início: <input type="date" name="startDate" id="txtStartDate">
+                Data Fim: <input type="date" name="endDate" id="txtEndDate">
+            </p>
+            <p>
+                Selecione o dedicante: 
+                <select name="dedicantesList" id="selDedicantes"></select>
+                <span id="btnAdd">Adicionar</span>
+            </p>
+            
+            <br>
+                <input type="button" value="Salvar" id="btnSave"></p>
+        </div>
+
+        <div id="resultPlanning">
+            <ul id="ulGuias">
+
+            </ul>
+        </div>
+
+    </section>
+    
+    <script src="planejando.js"></script>
+</body>
+</html>

@@ -17,7 +17,21 @@
             "nome": "Adriana Couto",
             "foto": "../assets/0012.png",
             "regiao": "São Paulo 1"
+        },
+        {
+            "codigo": 13,
+            "nome": "Mariana Moura",
+            "foto": "../assets/0013.png",
+            "regiao": "São Paulo 1"
+        },
+        {
+            "codigo": 14,
+            "nome": "Joana Costa",
+            "foto": "../assets/0014.png",
+            "regiao": "São Paulo 1"
         }
+
+
 
 
     ]
