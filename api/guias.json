@@ -1,0 +1,24 @@
+{
+    "guias": [
+        {
+            "codigo": 10,
+            "nome": "José da Silva",
+            "foto": "../assets/0010.png",
+            "regiao": "São Paulo 1"
+        },
+        {
+            "codigo": 11,
+            "nome": "Joao Manuel",
+            "foto": "../assets/0011.png",
+            "regiao": "São Paulo 1"
+        },
+        {
+            "codigo": 12,
+            "nome": "Adriana Couto",
+            "foto": "../assets/0012.png",
+            "regiao": "São Paulo 1"
+        }
+
+
+    ]
+}
