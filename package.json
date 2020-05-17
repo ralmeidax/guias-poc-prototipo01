@@ -1,0 +1,21 @@
+{
+  "name": "guias-poc-prototipo01",
+  "version": "1.0.0",
+  "description": "POC - para testar criação de API em JavaScript para leitura de arquivo JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "node ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralmeidax/guias-poc-prototipo01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralmeidax/guias-poc-prototipo01/issues"
+  },
+  "homepage": "https://github.com/ralmeidax/guias-poc-prototipo01#readme"
+}
