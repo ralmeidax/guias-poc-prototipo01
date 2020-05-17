@@ -15,12 +15,12 @@ function loadGuias({codigo, nome, foto, regiao}) {
     const li = document.createElement('li')
     const a = document.createElement('a')
     const trash = document.createElement('span')
-    const imagemPessoa = new Image(100,100)
+    const imagemPessoa = new Image(80,80)
     imagemPessoa.src = foto
    
 
     a.innerHTML = nome
-    trash.innerHTML = `\u{1F5D1}`
+    trash.innerHTML = `\u{1F50D}`
 
     li.append(imagemPessoa)
     li.append(a)

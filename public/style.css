@@ -24,6 +24,11 @@ section {
 
 }
 
+div#sectionHeader{
+    border-bottom: 1px solid #ddd;
+    background-color: lightgrey;
+    font-size: 1.4rem;
+}
 div.dedicante {
     background: white;
     border-radius: 3px;
@@ -40,6 +45,13 @@ footer {
     font-style: italic;
 }
 
+select{
+    width: 250px;
+}
+
+input#btnSave{
+    background-color:lightgrey;
+}
 ul {
     background: white;
     
