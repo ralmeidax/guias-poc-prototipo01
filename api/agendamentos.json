@@ -25,19 +25,19 @@
       "regiao": "São Paulo 1"
     },
     {
-      "codigo": "14",
-      "nome": "Joana Costa",
-      "foto": "../assets/0014.png",
-      "dataInicio": "2020-05-18",
-      "dataFim": "2020-05-18",
-      "regiao": "São Paulo 1"
-    },
-    {
       "codigo": "11",
       "nome": "Joao Manuel",
       "foto": "../assets/0011.png",
       "dataInicio": "2020-05-18",
       "dataFim": "2020-05-18",
+      "regiao": "São Paulo 1"
+    },
+    {
+      "codigo": "14",
+      "nome": "Joana Costa",
+      "foto": "../assets/0014.png",
+      "dataInicio": "2020-05-31",
+      "dataFim": "2020-06-01",
       "regiao": "São Paulo 1"
     }
   ]
