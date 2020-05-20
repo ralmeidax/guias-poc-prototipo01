@@ -35,7 +35,6 @@ function addDedicantes(){
         return
     }
     
-    //fabricar dedicante
     let dataInicio = txtStartDate.value
     let dataFim = txtEndDate.value
     
@@ -46,15 +45,14 @@ function addDedicantes(){
 }
     
 function addPlanning({codigo, nome, foto, dataInicio, dataFim, regiao}){
+    //fabricar dedicante
     const dedicante = fabricarDedicante(codigo, nome,foto,dataInicio,dataFim,regiao)
 
-    //inserindo no Array de Dedicantes
+    //Inserindo no Array de Dedicantes
     listaDedicantes.push(dedicante)
     console.log(listaDedicantes)
 
- 
-
-    //Inserindo na página HTML
+    //Inserindo dedicante na página HTML
     const li = document.createElement('li')
     const imgFoto = new Image(50,50)
     const a = document.createElement('a')
